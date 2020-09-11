@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes\Folder1;
+namespace Classes\Folder3;
 
 use Classes\AbstractClass;
 use Classes\Extra\Prefix;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes\Folder2;
+namespace Classes\Folder1;
 
 use Classes\AbstractClass;
 

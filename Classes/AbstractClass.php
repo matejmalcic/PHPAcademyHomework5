@@ -4,8 +4,8 @@ namespace Classes;
 
 abstract class AbstractClass
 {
-    public function viewAction() //staviti abstract ako moze
+    public function viewAction()
     {
-
+        return get_called_class();  //get_class($this)
     }
 }

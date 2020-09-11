@@ -2,9 +2,9 @@
 
 namespace Classes;
 
-class App
+final class App
 {
-    public function randomClass($className)
+    public function start($className)
     {
         return $className->viewAction();
     }
