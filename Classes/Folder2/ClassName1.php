@@ -7,9 +7,9 @@ use Classes\Extra\Prefix;
 
 class ClassName1 extends AbstractClass
 {
-    public $prefix;
+    private $prefix;
 
-    public function setPrefix(): void
+    private function setPrefix(): void
     {
         $this->prefix = new Prefix();
         $this->prefix->setDate();
